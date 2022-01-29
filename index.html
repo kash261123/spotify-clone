@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><img class="brand" src="./img/logo4.png" alt="Spotify" /></li>
+        Spotify
+      </ul>
+    </nav>
+    <div class="container">
+      <div class="songlist">
+        <h1>The Best Of Nsc Sound</h1>
+        <div class="songitemcontainer">
+            <div class="songItem">
+              <img src="./cover/11-let-me.jpg" alt="img">
+              <span class="songnames">Let ME Love You</span>
+              <span class="songlistplay"> <i id="0" class="songitemplay far fa-play-circle"></i><span class="timestamp">05.34</span>
+            </div>
+            <div class="songItem">
+              <img src="./cover/2-18.jpg" alt="img">
+              <span class="songnames">Let ME Love You</span>
+              <span class="songlistplay"> <i id="1" class="songitemplay far fa-play-circle"></i><span class="timestamp">05.34</span>
+            </div>
+            <div class="songItem">
+              <img src="./cover/3-little.jpg" alt="img">
+              <span class="songnames">Let ME Love You</span>
+              <span class="songlistplay"> <i id="2" class="songitemplay far fa-play-circle"></i><span class="timestamp">05.34</span>
+            </div>
+            <div class="songItem">
+              <img src="./cover/4-night.jpg" alt="img">
+              <span class="songnames">Let ME Love You</span>
+              <span class="songlistplay"> <i id="3" class="songitemplay far fa-play-circle"></i><span class="timestamp">05.34</span>
+            </div>
+            <div class="songItem">
+              <img src="./cover/5-steal.jpg" alt="img">
+              <span class="songnames">Let ME Love You</span>
+              <span class="songlistplay"> <i id="4" class="songitemplay far fa-play-circle"></i><span class="timestamp">05.34</span>
+            </div>
+            <div class="songItem">
+              <img src="./cover/6-what-makes.jpg"alt="img">
+              <span class="songnames">Let ME Love You</span>
+              <span class="songlistplay"> <i id="5" class="songitemplay far fa-play-circle"></i><span class="timestamp">05.34</span>
+            </div>
+            <div class="songItem">
+              <img src="./cover/7-let-her-go.jpg" alt="img">
+              <span class="songnames">Let ME Love You</span>
+              <span class="songlistplay"> <i id="6" class="songitemplay far fa-play-circle"></i><span class="timestamp">05.34</span>
+            </div>
+            <div class="songItem">
+              <img src="./cover/8-public.jpg" alt="img">
+              <span class="songnames">Let ME Love You</span>
+              <span class="songlistplay"><i id="7" class="songitemplay far fa-play-circle"></i><span class="timestamp">05.34</span>
+            </div>
+            <div class="songItem">
+              <img src="./cover/9-blank-space.jpg" alt="img">
+              <span class="songnames">Let ME Love You</span>
+              <span class="songlistplay"><i id="8" class="songitemplay far fa-play-circle"></i><span class="timestamp">05.34</span>
+            </div>
+            <div class="songItem">
+              <img src="./cover/10-zyan.jpg" alt="img">
+              <span class="songnames">Let ME Love You</span>
+              <span class="songlistplay"><i id="9" class="songitemplay far fa-play-circle"></i><span class="timestamp">05.34</span>
+            </div>
+        </div>
+      </div>
+      <div class="songBanner"></div>
+    </div>
+    <div class="bottom">
+      <input type="range" name="range" id="myProgressBar" value="0" min="0" max="100">
+      <div class="icons">
+        <i class="fas fa-3x fa-backward" id="previous"></i>
+        <i class="far fa-3x fa-play-circle" id="masterplay"></i>
+        <i class="fas fa-3x fa-forward"id="next"></i>
+      </div>
+      <div class="songinfo">
+        <span id="mastersongname">I Like Me Better</span>
+      </div>
+    </div>
+    <script src="https://kit.fontawesome.com/74b2d54448.js" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
